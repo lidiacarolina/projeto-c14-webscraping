@@ -1,7 +1,7 @@
 # Projeto C14 - WebScraping
 
 Este projeto é uma aplicação **Spring Boot** desenvolvida em **Java** que realiza **WebScraping** utilizando a biblioteca [Jsoup](https://jsoup.org/).  
-O objetivo é coletar informações de imóveis disponíveis no site da **Imobiliária Cardoso Andrade** e estruturá-las em objetos Java para posterior utilização (como API, persistência em banco de dados ou visualização em frontend).
+O objetivo é coletar informações de imóveis disponíveis no site da **Imobiliária Cardoso Andrade** e estruturá-las em objetos Java para posterior utilização (como API, persistência em banco de dados ou visualização em frontend). oiiiiiii
 
 ---
 
