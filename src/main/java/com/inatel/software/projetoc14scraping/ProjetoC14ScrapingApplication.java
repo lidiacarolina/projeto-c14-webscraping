@@ -17,7 +17,7 @@ public class ProjetoC14ScrapingApplication {
         ScraperService scraperService = new ScraperService();
         List<Imovel> imoveis = scraperService.scrape();
         for (Imovel imovel : imoveis) {
-            System.out.println(imovel.toString());
+            System.out.println(imovel.toString() + " ---- ");
         }
 
     }
