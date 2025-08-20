@@ -3,16 +3,6 @@
 Este projeto é uma aplicação **Spring Boot** desenvolvida em **Java** que realiza **WebScraping** utilizando a biblioteca [Jsoup](https://jsoup.org/).  
 O objetivo é coletar informações de imóveis disponíveis no site da **Imobiliária Cardoso Andrade** e estruturá-las em objetos Java para posterior utilização (como API, persistência em banco de dados ou visualização em frontend). oiiiiiii
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **Java 21** (ou versão compatível configurada no Maven)
-- **Spring Boot**
-- **Maven**
-- **Jsoup**
-
----
 
 ## 📂 Estrutura do Projeto
 
@@ -86,3 +76,11 @@ mvn spring-boot:run
 mvn clean package
 java -jar target/projeto-c14-scraping-0.0.1-SNAPSHOT.jar
 ```
+
+
+## Resolvendo conflito de merge
+Durante a execução do projeto, ocorreu um conflito de merge ao tentar modificar a mesma linha do arquivo *src/main/java/com/inatel/software/projetoc14scraping/ProjetoC14ScrapingApplication.java*
+
+![alt text](<Screenshot from 2025-08-19 21-27-32.png>)
+
+Ao tentar commitar a minha alteração, foi solicitado que eu desse um *git pull* primeiro e a IDE identificou o conflito. Eu apaguei a alteração que eu tinha feito e deixei apenas a alteração feita pelo *dju4mota* que estava como colaborador do projeto. Ao apagar as linhas concorrentes, pude fazer *git push* e subir o arquivo correto, sem conflitos.
