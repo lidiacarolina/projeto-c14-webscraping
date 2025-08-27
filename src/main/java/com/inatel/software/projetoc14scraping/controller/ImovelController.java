@@ -18,14 +18,4 @@ public class ImovelController {
     public List<Imovel> getAllImoveis() {
         return repository.findAll();
     }
-
-    @GetMapping("/busca")
-    public List<Imovel> searchImoveis(@RequestParam String titulo) {
-        return repository.findByTituloContainingIgnoreCase(titulo);
-    }
-
-    @GetMapping("/imobiliaria/{nomeImobiliaria}")
-    public List<Imovel> getImoveisByImobiliaria(@PathVariable String nomeImobiliaria) {
-        return repository.findByImobiliaria(nomeImobiliaria);
-    }
 }
