@@ -1,4 +1,4 @@
-package com.inatel.software.projetoc14scraping.model;
+package com.inatel.software.projetoc14scraping.model.Imovel;
 
 public class Imovel {
     private String titulo;

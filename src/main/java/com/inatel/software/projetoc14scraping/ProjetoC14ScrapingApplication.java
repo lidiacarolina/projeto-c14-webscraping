@@ -1,6 +1,6 @@
 package com.inatel.software.projetoc14scraping;
 
-import com.inatel.software.projetoc14scraping.model.Imovel;
+import com.inatel.software.projetoc14scraping.model.Imovel.Imovel;
 import com.inatel.software.projetoc14scraping.service.ScraperService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

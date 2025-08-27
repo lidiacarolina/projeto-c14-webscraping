@@ -1,6 +1,6 @@
 package com.inatel.software.projetoc14scraping.service;
 
-import com.inatel.software.projetoc14scraping.model.Imovel;
+import com.inatel.software.projetoc14scraping.model.Imovel.Imovel;
 import org.jsoup.Jsoup;
 import org.springframework.stereotype.Service;
 import org.jsoup.nodes.Document;
