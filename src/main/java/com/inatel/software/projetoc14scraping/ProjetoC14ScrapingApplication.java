@@ -14,11 +14,11 @@ public class ProjetoC14ScrapingApplication {
 
         SpringApplication.run(ProjetoC14ScrapingApplication.class, args);
 
-        ScraperService scraperService = new ScraperService();
-        List<Imovel> imoveis = scraperService.scrape();
-        for (Imovel imovel : imoveis) {
-            System.out.println("Imovel: " +  imovel.toString() ); // imovel encontrado
-        }
+//        ScraperService scraperService = new ScraperService();
+//        List<Imovel> imoveis = scraperService.scrape();
+//        for (Imovel imovel : imoveis) {
+//            System.out.println("Imovel: " +  imovel.toString() ); // imovel encontrado
+//        }
 
     }
 
